@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+/* General page styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* Header and hero background */
+.hero-section {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 0 120px 80px;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hero content */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  padding-top: 48px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0 0 16px;
+  color: #F9FAF8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0 0 16px;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Hero image placeholder */
+.hero-image {
+  flex: 1;
+  min-height: 240px;
+  background-color: #6B7280;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Information section */
+.information-section {
+  padding: 48px 120px 80px;
+  text-align: center;
+}
+
+.information-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin: 0 0 48px;
+}
+
+.information-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  width: 180px;
+  text-align: center;
+}
+
+.info-image {
+  height: 160px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.info-card p {
+  font-size: 16px;
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+/* Quote section */
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 80px 160px;
+}
+
+.quote-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  line-height: 1.4;
+  margin: 0 0 16px;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0;
+}
+
+/* Call to action section */
+.cta-section {
+  padding: 80px 120px;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  color: white;
+  padding: 40px 64px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.cta-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.cta-text p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.cta-button {
+  border: 2px solid white;
+  flex-shrink: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 32px 16px;
+  font-size: 16px;
+}
